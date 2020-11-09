@@ -20,6 +20,7 @@ public class HelloSpigot extends JavaPlugin {
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if(label.equalsIgnoreCase("Hello")) {
             sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&1H&2e&3l&4l&5o&6!"));
+            return true;
         }
         return false;
     }
