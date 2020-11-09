@@ -2,3 +2,8 @@ main: johan24.HelloSpigot.HelloSpigot
 name: HelloSpigot
 version: 1.0
 author: Johan24
+
+commands:
+  Hello:
+    description: A simple hello command.
+    usage: /<command>
